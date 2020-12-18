@@ -1,4 +1,6 @@
-Hi. This is a software for training vocabularies. All vocabulary lists should be entered manually with the provided format saved as .csv file:
+A software for training vocabularies.
+
+All vocabulary lists should be entered manually with the provided format saved as .csv file:
 
 ...
 #Example.csv
