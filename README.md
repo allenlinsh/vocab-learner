@@ -1,5 +1,5 @@
 # :books:Vocab Learner
-A software for learning vocabularies (Windows only)
+A free software for learning vocabularies (Windows only)
 
 # Installation
 1. Download the folder **build_v1.1**
