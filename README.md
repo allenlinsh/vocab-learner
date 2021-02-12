@@ -1,26 +1,39 @@
-A software for training vocabularies.
+# :books:Vocab Learner
+A software for learning vocabularies (Windows only)
 
-All vocabulary lists should be entered manually with the provided format saved as .csv file:
+# Installation
+1. Download the folder **build_v1.1**
+2. Run **VocabTrainer.exe** to launch the program
 
-...
-#Example.csv
+> If the program doesn't run correctly, install this package:\
+> [Visual C++ 2010 Redistributable Package (32 bit)](https://www.microsoft.com/en-gb/download/details.aspx?id=5555) or,\
+> [Visual C++ 2010 Redistributable Package (64 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=14632)
 
-Vocabulary, Definition, (n.), (v.), (adj.), (adv.)
-(noun),(def),1,,,
-(noun/verb),(def),1,1,,
-(adj),(def),,,1,
-...
+# Usage
+## Program Menu
+- Click `Open` to choose a vocabulary list
+- Click `Review` to review mistakes from the last practice
+- Click `Learn` to practice a vocabulary list without recording mistakes
+- Press `esc` to exit the current practice
 
-*The '1' indicates the tense of the vocabulary while the others can be left blank or be filled when the word has multiple tenses
-*Vocabulary lists that contain foreign characters (such as Mandarin, Japanese, etc.) are allowed, however the file encoding format should be set to 'UTF-8'.
+## Word List
+All vocabulary entries should follow the template and save as a **.csv** file:
 
--'Open': to choose the vocabulary list
--'Review': to review vocabularies from the last practice
--'Learn': to practice the selected vocabulary list
--Esc: to exit the current practice
+> Vocabulary lists that contain foreign characters (such as Mandarin, Japanese, etc.) are allowed; however, select **UTF-8** as the file encoding format when saving the file
 
-*Note: If the software doesn't operate correctly, try to download the following package:
-Windows x32: https://www.microsoft.com/en-gb/download/details.aspx?id=5555
-Windows x64: https://www.microsoft.com/en-us/download/details.aspx?id=14632
+### Template
+Vocabulary, Definition, (n.), (v.), (adj.), (adv.)  `WARNING: Do not modify this row`\
+word#1, def#1, 1, , , , \
+word#2, def#2, , , 1, 1 \
+word#3, def#3, , 1, , \
+word#4, def#4, , , , 1 \
+word#5, def#5, , , 1, \
 
-Have fun!
+### Visual representation
+| Vocabulary |	Definition | (n.) | (v.) | (adj.) | (adv.) |
+| :--------: | :---------: | :--: | :--: | :----: | :----: |
+|   word#1   |    def#1    |   1  |      |        |        |
+|   word#2   |    def#2    |      |      |    1   |    1   |
+|   word#3   |    def#3    |      |   1  |        |        |
+|   word#4   |    def#4    |      |      |        |    1   |
+|   word#5   |    def#5    |      |      |    1   |        |
