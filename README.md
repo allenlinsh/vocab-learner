@@ -27,7 +27,7 @@ word#1, def#1, 1, , , , \
 word#2, def#2, , , 1, 1 \
 word#3, def#3, , 1, , \
 word#4, def#4, , , , 1 \
-word#5, def#5, , , 1, \
+word#5, def#5, , , 1, 
 
 ### Visual representation
 | Vocabulary |	Definition | (n.) | (v.) | (adj.) | (adv.) |
