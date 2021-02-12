@@ -22,12 +22,14 @@ All vocabulary entries should follow the template and save as a **.csv** file:
 > Vocabulary lists that contain foreign characters (such as Mandarin, Japanese, etc.) are allowed; however, select **UTF-8** as the file encoding format when saving the file
 
 ### Template
-Vocabulary, Definition, (n.), (v.), (adj.), (adv.)  `WARNING: Do not modify this row`\
+Vocabulary, Definition, (n.), (v.), (adj.), (adv.) \
 word#1, def#1, 1, , , , \
 word#2, def#2, , , 1, 1 \
 word#3, def#3, , 1, , \
 word#4, def#4, , , , 1 \
 word#5, def#5, , , 1, 
+
+> WARNING: Do not modify the first row
 
 ### Visual representation
 | Vocabulary |	Definition | (n.) | (v.) | (adj.) | (adv.) |
